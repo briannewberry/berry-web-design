@@ -1,0 +1,34 @@
+{
+  "name": "berry-web-design",
+  "version": "1.0.0",
+  "description": "Berry Web Designs Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briannewberry/berry-web-design.git"
+  },
+  "author": "Theta Tau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnewbs28/berry-web-design/issues"
+  },
+  "homepage": "https://github.com/bnewbs28/berry-web-design#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "browser-sync": "^2.2.0"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "natives": "^1.1.4"
+  }
+}
