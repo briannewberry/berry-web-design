@@ -11,6 +11,11 @@
 
 // Load any external files you have here
 
+// Load Mobile Navigation
+function mobilenav_scripts() {
+
+}
+
 /*------------------------------------*\
 	Theme Support
 \*------------------------------------*/
@@ -67,8 +72,8 @@ function html5blank_nav()
 {
 	wp_nav_menu(
 	array(
-		'theme_location'  => 'header-menu',
-		'menu'            => '',
+		'theme_location'  => '',
+		'menu'            => 'primary-menu',
 		'container'       => 'div',
 		'container_class' => 'menu-{menu slug}-container',
 		'container_id'    => '',
@@ -80,7 +85,7 @@ function html5blank_nav()
 		'after'           => '',
 		'link_before'     => '',
 		'link_after'      => '',
-		'items_wrap'      => '<ul>%3$s</ul>',
+		'items_wrap'      => '<ul id="primary-menu">%3$s</ul>',
 		'depth'           => 0,
 		'walker'          => ''
 		)
